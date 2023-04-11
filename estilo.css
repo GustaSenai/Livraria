@@ -1,0 +1,135 @@
+/* DOCUMENTO CSS */ 
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Calibri', sans-serif;
+	background-color: #ede9e4;
+	color: #000000;
+}
+
+header {
+	background-color: #e3e217;
+	height: 160px;
+	padding-top: 0px;
+	display: flex ;
+	flex-direction: column;
+	align-items: center;
+}
+
+header figure {
+	width: 300px;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	min-height: 900px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+	background-color: #c0c0c0;
+}
+
+.boxlivro {width: 450px;
+	height: 245px;
+	background-color: #dcdcdc;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px 10px 10px 10px ;
+	display: flex;
+}
+
+.boxlivro:hover {
+ box-shadow: 6px 6px 10px #a4a4a4;
+
+}
+
+.boxlivro h2 {margin: 0 0 0px 0;
+	padding: 0;
+}
+
+.boxlivro figure {
+	
+	
+	margin: 6px 20px 0 0;
+	padding: 0;
+	
+	align-items: center;
+}
+
+.boxlivro p {
+
+}
+
+
+.boxlivro span {
+	font-size: 30px;
+	font-weight: 900;
+	margin: 0 0 0 40px;
+	padding: 0;
+}
+.meu-botao {
+	background-color:#f7ff33;
+	color: #004;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+
+.botao{
+	background-color: black;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+
+}
+
+
+footer {
+	background-color: #e3e217;
+	height: 70px;
+	padding-top: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: left;
+}
+
+footer figure {
+	width: 50px;
+	height: 50px;	
+	margin: 0 30px 0 50px;
+	padding: 0;
+}
+
+footer p {
+	font-weight: 800;
+	font-size: 20px;
+	margin: 10px 0 0 0;
+}
+
+
+h5 {font-family: "Segoe UI";
+font-weight: 700;
+width: 250px;
+height: 35px;
+padding:13px 0 0 10px;
+color: #fff;
+background-color: #f7ec20;
+border-left: 5px solid #fff200;
+border-radius: 0 10px 10px 0;
+}
+
+button {
+	size: 10px;
+	width: 200px;
+}
